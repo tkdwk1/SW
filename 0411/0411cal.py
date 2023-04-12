@@ -12,6 +12,7 @@ if op=="-":
     print(num1-num2)
 if op=="*":
     print(num1*num2)
-else:
+if op=="/":
     print(num1/num2)
-print()
+else:
+    print("올바른 연산자가 아닙니다.")
